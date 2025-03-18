@@ -11,6 +11,7 @@
           <div class="title" :style="{color:theme.textColor}">{{ title }}</div>
         </div>
         <div class="menu-item">
+          <!--
           <span v-if="!license.de_copy">
             <a :href="docsURL" target="_blank">
             <el-button :color="theme.btnBgColor" :style="{color: theme.btnTextColor}" class="shadow" round>
@@ -26,6 +27,7 @@
             </el-button>
           </a>
           </span>
+          -->
 
           <span v-if="!isLogin">
             <el-button :color="theme.btnBgColor" :style="{color: theme.btnTextColor}" @click="router.push('/login')" class="shadow" round>登录</el-button>
