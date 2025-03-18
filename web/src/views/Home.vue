@@ -11,6 +11,7 @@
       </div>
 
       <div class="navbar">
+        <!--
         <el-tooltip
             v-if="!license.de_copy"
             class="box-item"
@@ -32,7 +33,7 @@
             <i class="iconfont icon-github"></i>
           </a>
         </el-tooltip>
-
+        -->
         <el-dropdown :hide-on-click="true" class="user-info" trigger="click" v-if="loginUser.id">
                         <span class="el-dropdown-link">
                           <el-image :src="loginUser.avatar"/>
